@@ -1,0 +1,38 @@
+{
+	"athlete": [
+		"Jamie Anderson",
+		"William Brown",
+		"Jayden Harris",
+		"Cooper Johnson",
+		"Riley Jones",
+		"Max Kelly",
+		"Jackson King",
+		"Thomas Lee",
+		"Lucas Martin",
+		"Joshua Nguyen"
+	],
+	"muscle-soreness": [
+		"5",
+		"6",
+		"4",
+		"3",
+		"8",
+		"6",
+		"4",
+		"10",
+		"8",
+		"1"
+	],
+	"sleep-quality": [
+		"5",
+		"6",
+		"10",
+		"4",
+		"8",
+		"3",
+		"1",
+		"4",
+		"8",
+		"6"
+	]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "name-change",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/graphql": "^14.0.7",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/node": "^11.11.3",
+    "apollo-server": "^2.4.8",
+    "apollo-server-koa": "^2.4.8",
+    "aws-sdk": "^2.636.0",
+    "bcrypt": "^3.0.8",
+    "dotenv": "^7.0.0",
+    "graphql": "^14.1.1",
+    "graphql-upload": "^8.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "moment": "^2.24.0",
+    "mustache": "^3.0.1",
+    "pg": "^7.9.0",
+    "reflect-metadata": "^0.1.13",
+    "request": "^2.88.0",
+    "sharp": "^0.25.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "type-graphql": "^0.17.6",
+    "typedi": "^0.8.0",
+    "typeorm": "^0.2.24",
+    "typeorm-typedi-extensions": "^0.2.3",
+    "typescript": "^3.8.3",
+    "universal-cookie-koa": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./index.ts",
+    "dev": "ts-node-dev ./index.ts"
+  },
+  "engines": {
+    "node": "12.13.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
