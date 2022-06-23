@@ -1,2 +1,2 @@
 # tech_tinkers
-Moving all past tech tests into one repo
+Combined repo for all old tech challenges
