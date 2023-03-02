@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  color: #333;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+
+  background-color: #05bdf1;
+  background-attachment: fixed;
+  /* background-image: url(http://pets-images.dev-apis.com/pets/wallpaperB.jpg); */
+  background-image: url(https://external-preview.redd.it/Id-DvnNat_zk9HEr81hyXmUnzQ5RLX1eEuUvYqlgnmc.jpg?auto=webp&s=77c39142a5e0cd502fd06ba9650070fc148ee2af);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: initial;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+header > a,
+#root > div > h1 {
+  display: inline-block;
+  background-image: url(https://upload.wikimedia.org/wikipedia/fr/7/74/Rick_et_Morty_Logo_FR.png?20210714043528);
+  filter: brightness(150%);
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: contain;
+  margin: 20px 0;
+}
