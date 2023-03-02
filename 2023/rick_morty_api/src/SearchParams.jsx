@@ -39,7 +39,7 @@ const SearchParams = () => {
         }
         setPage(page + 1);
       }}
-      hasMore={!loading && next && page < 10}
+      hasMore={!loading && next}
       initialLoad
       threshold={100}
     >
