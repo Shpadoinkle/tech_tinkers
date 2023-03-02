@@ -9,6 +9,7 @@ Built a simple react app that queries the public spaceX api at https://api.space
 **Tech Stack Used**
 - React with Typescript
 - Apollo Client for Graphql query
+- Run with lts node 12.22.12
 
 **Deployment**
 
