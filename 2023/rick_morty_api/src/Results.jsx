@@ -14,14 +14,14 @@ const Results = ({ cards }) => {
       setCharacters(charactersObj);
       setCharactersArray(Object.values(charactersObj));
     }
-  }, [cards]);
+  }, [cards, charactersObj]);
 
   if (!charactersArray.length) return null;
 
   return (
     <ContentWrapper>
       {charactersArray.map((card, i) => (
-        <Card id={card.id} card={card} />
+        <Card key={card.id} id={card.id} card={card} />
       ))}
     </ContentWrapper>
   );
