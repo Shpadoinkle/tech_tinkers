@@ -1,2 +1,3 @@
 # tech_tinkers
-Combined repo for all old tech challenges
+Had alot of old separate repos for old tech challenges etc.. 
+Combined them all into one repo
