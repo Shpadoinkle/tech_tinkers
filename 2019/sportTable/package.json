@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "grunt": "~0.4.5",
+    "grunt": "~1.6.1",
     "grunt-contrib-less": "2.0.0",
     "grunt-contrib-watch": "1.1.0"
   },
   "dependencies": {
-    "axios": "^0.16.2",
-    "firebase": "4.12.1",
+    "axios": "^1.12.2",
+    "firebase": "10.9.0",
     "https": "^1.0.0",
     "jquery": "^3.2.1",
     "js-cookie": "^2.2.0",
