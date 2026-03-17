@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes pop {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+@keyframes strike {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+.pop { animation: pop 0.2s ease; }
+
+.strike-through {
+  position: relative;
+}
+.strike-through::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 2px;
+  background: currentColor;
+  animation: strike 0.25s ease forwards;
+  width: 100%;
+}
