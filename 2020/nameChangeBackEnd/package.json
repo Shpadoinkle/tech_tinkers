@@ -9,7 +9,7 @@
     "@types/graphql": "^14.0.7",
     "@types/jsonwebtoken": "^8.3.2",
     "@types/node": "^11.11.3",
-    "apollo-server": "^2.4.8",
+    "apollo-server": "^3.13.0",
     "apollo-server-koa": "^2.4.8",
     "aws-sdk": "^2.636.0",
     "bcrypt": "^6.0.0",
